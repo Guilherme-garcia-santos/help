@@ -9,5 +9,6 @@ namespace HelpDeskApi.Data
 
         // Esta linha avisa o Entity Framework que 'Categoria' vai virar uma tabela
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Custo> Custos { get; set; }
     }
 }
