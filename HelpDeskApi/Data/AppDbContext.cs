@@ -7,8 +7,8 @@ namespace HelpDeskApi.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        // Esta linha avisa o Entity Framework que 'Categoria' vai virar uma tabela
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Custo> Custos { get; set; }
+        public DbSet<OS> OSs { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

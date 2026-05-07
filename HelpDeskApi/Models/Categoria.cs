@@ -8,7 +8,7 @@ namespace HelpDeskApi.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "O nome da categoria é obrigatório.")]
-        [StringLength(50, ErrorMessage = "O nome deve ter no máximo 50 caracteres.")]
+        [StringLength(50, ErrorMessage = "O nome da categoria deve ter no máximo 50 caracteres.")]
         public string Nome { get; set; } = string.Empty;
     }
 }
